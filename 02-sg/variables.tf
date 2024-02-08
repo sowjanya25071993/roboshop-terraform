@@ -14,7 +14,7 @@ variable "project_name" {
 variable "environment" {
     default = "dev"
 }
-variable "sg_ingress_rules" {
+variable "sg_ingress_rules_mongodb" {
     default = [
         {
             description = "allow port 80"
